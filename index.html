@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vaishnavi V - Electrical and Electronics Engineering Student Portfolio">
+    <title>Vaishnavi V | EEE Student | Embedded Systems | IoT Enthusiast</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Particle Background Canvas -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">VV</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#internship" class="nav-link">Internship</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="floating-element float-1"></div>
+            <div class="floating-element float-2"></div>
+            <div class="floating-element float-3"></div>
+            
+            <div class="hero-left">
+                <h1 class="hero-title">
+                    <span class="title-prefix">Hello, I'm</span>
+                    <span class="title-name">Vaishnavi V</span>
+                </h1>
+                <p class="hero-tagline">EEE Student | Embedded Systems | IoT Enthusiast</p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                    <a href="VAISHNAVI  V RESUME_page-0001.jpg" download class="btn btn-tertiary">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+                
+                <div class="scroll-indicator">
+                    <span>Scroll Down</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="profile-image-container">
+                    <img src="WhatsApp Image 2026-05-01 at 8.45.28 PM.jpeg" alt="Vaishnavi V" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title reveal">About Me</h2>
+            <div class="about-content reveal">
+                <div class="about-card glass-card">
+                    <div class="about-icon">
+                        <i class="fas fa-user-astronaut"></i>
+                    </div>
+                    <p class="about-text">
+                        Motivated Electrical and Electronics Engineering student to obtain a responsible position in a reputable organization where I can effectively apply my skills and knowledge. To continuously enhance my professional competencies through learning and hands-on experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title reveal">Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category reveal">
+                    <h3 class="category-title"><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">C</span>
+                        <span class="skill-badge">C++</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">SQL</span>
+                        <span class="skill-badge">Data Structures</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal">
+                    <h3 class="category-title"><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-badges">
+                        <span class="skill-badge">MATLAB</span>
+                        <span class="skill-badge">Tinkercad</span>
+                        <span class="skill-badge">LTSpice</span>
+                        <span class="skill-badge">PCB Design</span>
+                        <span class="skill-badge">Oracle Database</span>
+                        <span class="skill-badge">Excel Macros</span>
+                        <span class="skill-badge">Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title reveal">Education</h2>
+            <div class="education-content">
+                <div class="education-card glass-card reveal">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="edu-details">
+                        <h3 class="edu-degree">BE Electrical and Electronics Engineering</h3>
+                        <p class="edu-year">2023 - 2027</p>
+                        <p class="edu-institution">Sri SaiRam Engineering College</p>
+                        <p class="edu-score">CGPA: 8.85</p>
+                    </div>
+                </div>
+                <div class="education-card glass-card reveal">
+                    <div class="edu-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="edu-details">
+                        <h3 class="edu-degree">Higher Secondary Certificate (HSC)</h3>
+                        <p class="edu-year">2022 - 2023</p>
+                        <p class="edu-institution">HSC</p>
+                        <p class="edu-score">87.8%</p>
+                    </div>
+                </div>
+                <div class="education-card glass-card reveal">
+                    <div class="edu-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="edu-details">
+                        <h3 class="edu-degree">Secondary School Leaving Certificate (SSLC)</h3>
+                        <p class="edu-year">2020 - 2021</p>
+                        <p class="edu-institution">SSLC</p>
+                        <p class="edu-score">First Class</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section class="internship" id="internship">
+        <div class="container">
+            <h2 class="section-title reveal">Internship Experience</h2>
+            <div class="internship-content">
+                <div class="internship-card glass-card reveal">
+                    <div class="internship-header">
+                        <div class="company-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="company-info">
+                            <h3 class="company-name">Seshasayee Paper and Boards Pvt. Ltd</h3>
+                            <p class="company-location">Erode (2024)</p>
+                        </div>
+                    </div>
+                    <div class="internship-description">
+                        <p class="internship-desc">Gained hands-on exposure to 110 kV switchyard operations, industrial boiler systems, and the functioning of electrical equipment in a large-scale paper manufacturing environment.</p>
+                    </div>
+                </div>
+                <div class="internship-card glass-card reveal">
+                    <div class="internship-header">
+                        <div class="company-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <div class="company-info">
+                            <h3 class="company-name">Kasa Anlagen Pvt. Ltd</h3>
+                            <p class="company-location">Chennai (2025)</p>
+                        </div>
+                    </div>
+                    <div class="internship-description">
+                        <p class="internship-desc">Developed an understanding of the working principles of circuit breakers, switches, and transformers, along with the ability to interpret single-line diagrams used in power systems.</p>
+                    </div>
+                </div>
+                <div class="internship-card glass-card highlight reveal">
+                    <div class="internship-header">
+                        <div class="company-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="company-info">
+                            <h3 class="company-name">Ashok Leyland Pvt. Ltd</h3>
+                            <p class="company-location">Chennai (2025)</p>
+                        </div>
+                    </div>
+                    <div class="internship-project">
+                        <h4 class="project-title">Internship Project: Digitalization of Defence Aftermarket Including Dealer Network</h4>
+                        <p class="project-desc">Using Excel Macros and Oracle Database</p>
+                        <div class="project-stipend">
+                            <i class="fas fa-rupee-sign"></i> Stipend: ₹30,000 per month
+                        </div>
+                        <div class="project-outcome">
+                            <i class="fas fa-trophy"></i> Potential Pre-Placement Offer (PPO)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title reveal">Projects</h2>
+            <div class="projects-content">
+                <div class="project-card glass-card reveal">
+                    <div class="project-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3 class="project-title">Road Nova</h3>
+                    <p class="project-description">GPS & Mapping System - Advanced navigation solution with real-time tracking and route optimization features.</p>
+                </div>
+                <div class="project-card glass-card reveal">
+                    <div class="project-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3 class="project-title">Tampering Detection in Weighing Instruments</h3>
+                    <p class="project-description">Security system designed to detect and prevent unauthorized modifications in weighing instruments.</p>
+                </div>
+                <div class="project-card glass-card reveal">
+                    <div class="project-icon">
+                        <i class="fas fa-virus"></i>
+                    </div>
+                    <h3 class="project-title">IoT-based Zoonotic Disease Detection</h3>
+                    <p class="project-description">Ongoing project - IoT-enabled system for early detection and monitoring of zoonotic diseases.</p>
+                </div>
+                <div class="project-card glass-card reveal">
+                    <div class="project-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="project-title">Oracle Database Project</h3>
+                    <p class="project-description">Completed Oracle Database training using SQL with focus on data storage. Used as backend of an application and developed a project based on Oracle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title reveal">Certifications</h2>
+            <div class="certifications-content">
+                <div class="cert-card glass-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="cert-title">Oracle Database (SQL)</h3>
+                    <p class="cert-issuer">Oracle</p>
+                </div>
+                <div class="cert-card glass-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="cert-title">C Programming</h3>
+                    <p class="cert-issuer">IIT Bombay</p>
+                </div>
+                <div class="cert-card glass-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="cert-title">C++ Programming</h3>
+                    <p class="cert-issuer">Pumo Academy</p>
+                </div>
+                <div class="cert-card glass-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="cert-title">IoT, Design & Innovation</h3>
+                    <p class="cert-issuer">NPTEL</p>
+                </div>
+                <div class="cert-card glass-card reveal">
+                    <div class="cert-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="cert-title">Embedded Systems</h3>
+                    <p class="cert-issuer">Udemy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title reveal">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-card glass-card reveal">
+                    <a href="mailto:sec23ee005@sairamtap.edu.in" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">College Email</span>
+                            <span class="contact-value">sec23ee005@sairamtap.edu.in</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="contact-card glass-card reveal">
+                    <a href="mailto:vaishnaviv610@gmail.com" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Personal Email</span>
+                            <span class="contact-value">vaishnaviv610@gmail.com</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="contact-card glass-card reveal">
+                    <a href="tel:+916379420046" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">Phone</span>
+                            <span class="contact-value">+91 6379420046</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="contact-card glass-card reveal">
+                    <a href="https://www.linkedin.com/in/vaishnavi-v-6090442a6" target="_blank" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">LinkedIn</span>
+                            <span class="contact-value">Connect with me</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="contact-card glass-card reveal">
+                    <a href="https://github.com/vaishnavi-v" target="_blank" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-label">GitHub</span>
+                            <span class="contact-value">View my work</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Vaishnavi V. All rights reserved.</p>
+            <p class="footer-tag">Built with <i class="fas fa-heart"></i> and futuristic vibes</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
